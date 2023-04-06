@@ -48,7 +48,7 @@ Details about the folders and files:
 >> `python train_model.py --embeddings output/embeddings.pickle --recognizer output/recognizer.pickle --le output/le.pickle`  
 > 
 > To  start the `facial recogition` module (for single image), run the following command:
->> `python recognize.py --detector face_detection_model --embedding-model openface_nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle --image images/<image_name>`
+>> `python recognize.py --detector face_detection_model --embedding-model nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle --image images/<image_name>`
 > 
 > To  start the `facial recogition` module (from webcam video), run the following command:
 >> `python recognize_video.py --detector face_detection_model --embedding-model nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle`
